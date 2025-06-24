@@ -1,8 +1,19 @@
-# Linked List: Remove Duplicates
+#  Linked List Duplicate Remover
 
-This project demonstrates how to remove duplicate nodes in a sorted linked list.
+This Python project implements a simple **singly linked list** and includes two methods to **remove duplicate elements**:
 
-## Problem Description
+- `remove_dupes()` — removes duplicates using Python’s built-in `set()` function.
+- `manual_remover()` — manually removes duplicates using a loop and a temporary list.
 
-Given a sorted linked list with possible duplicate nodes, this program removes all consecutive duplicate nodes so that each node appears only once.
+It also includes a method to print the linked list contents in order.
+
+---
+
+##  Project Structure
+
+- `Node` class: Represents a single node in the linked list, storing data and a reference to the next node.
+- `LinkedList` class: Stores the `head` node and includes:
+  - `remove_dupes()`: Uses `set()` to remove duplicates, then rebuilds the list.
+  - `manual_remover()`: Manually removes duplicates and rebuilds the list.
+  - `print()`: Prints all elements of the linked list.
 
